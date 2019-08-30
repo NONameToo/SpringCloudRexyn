@@ -1,4 +1,4 @@
-package com.rexyn.com;
+package com.rexyn.controller;
 
 import com.rexyn.feign.BaseFeign;
 import entity.Result;

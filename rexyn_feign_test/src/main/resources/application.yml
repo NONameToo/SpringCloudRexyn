@@ -1,6 +1,11 @@
 server:
   port: 8002
 
+spring:
+  application:
+    name: rexyn-feign-test
+
+
 eureka:
 
   client:
@@ -9,3 +14,4 @@ eureka:
 
   instance:
     prefer-ip-address: true
+
