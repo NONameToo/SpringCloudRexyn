@@ -1,0 +1,25 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: rexyn-msg
+
+  rabbitmq:
+    host: 192.168.199.210
+
+
+aliyun:
+  sms:
+    accessKeyId: LTAIbCpeO9DHXJyR
+    accessKeySecret: k4ae48gDixn5rsuZ6h8bJ9QII3BKyJ
+    template_code: SMS_172351328
+    sign_name: Rexyn项目短信模块
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8888/eureka/
+  instance:
+    prefer-ip-address: true

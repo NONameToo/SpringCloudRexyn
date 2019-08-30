@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rexyn_base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rexyn_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rexyn_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rexyn_feign_test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rexyn_msg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rexyn_rabbitmq_test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rexyn_user" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rexyn_base" />
+        <module name="rexyn_common" />
+        <module name="rexyn_user" />
+        <module name="rexyn_rabbitmq_test" />
+        <module name="rexyn_msg" />
+        <module name="rexyn_eureka" />
+        <module name="rexyn_feign_test" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rexyn_base" options="-parameters" />
+      <module name="rexyn_common" options="-parameters" />
+      <module name="rexyn_eureka" options="-parameters" />
+      <module name="rexyn_feign_test" options="-parameters" />
+      <module name="rexyn_msg" options="-parameters" />
+      <module name="rexyn_rabbitmq_test" options="-parameters" />
+      <module name="rexyn_user" options="-parameters" />
+    </option>
+  </component>
+</project>
