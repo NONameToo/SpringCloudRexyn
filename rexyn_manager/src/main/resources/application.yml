@@ -22,3 +22,8 @@ zuul:
       path: /user/**
       serviceId: rexyn-user
 
+jwt:
+  config:
+    key: rexyn
+    ttl: 86400000
+
