@@ -12,6 +12,7 @@
         <module name="rexyn_rabbitmq_test" />
         <module name="rexyn_msg" />
         <module name="rexyn_eureka" />
+        <module name="rexyn_manager" />
         <module name="rexyn_feign_test" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="rexyn_common" options="-parameters" />
       <module name="rexyn_eureka" options="-parameters" />
       <module name="rexyn_feign_test" options="-parameters" />
+      <module name="rexyn_manager" options="-parameters" />
       <module name="rexyn_msg" options="-parameters" />
       <module name="rexyn_rabbitmq_test" options="-parameters" />
       <module name="rexyn_user" options="-parameters" />

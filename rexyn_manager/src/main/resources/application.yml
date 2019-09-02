@@ -1,0 +1,24 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: rexyn-manager
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8888/eureka/
+
+  instance:
+    prefer-ip-address: true
+
+zuul:
+  routes:
+    rexyn-base:
+      path: /base/**
+      serviceId: rexyn-base
+    rexyn-user:
+      path: /user/**
+      serviceId: rexyn-user
+

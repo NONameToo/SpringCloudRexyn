@@ -15,6 +15,7 @@
         <module>rexyn_msg</module>
         <module>rexyn_eureka</module>
         <module>rexyn_feign_test</module>
+        <module>rexyn_manager</module>
     </modules>
     <packaging>pom</packaging>
 
