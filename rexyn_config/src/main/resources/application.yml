@@ -12,5 +12,13 @@ spring:
         git:
           uri: https://gitee.com/fushaokai/rexyn_project.git
 
+  rabbitmq:
+    host: 192.168.199.210
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
 
 

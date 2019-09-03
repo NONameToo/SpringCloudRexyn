@@ -16,6 +16,8 @@ spring:
     show-sql: true
   redis:
     host: 192.168.199.210
+  rabbitmq:
+    host: 192.168.199.210
 
 eureka:
   client:
