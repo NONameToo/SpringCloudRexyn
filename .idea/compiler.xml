@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rexyn_base" />
+        <module name="rexyn_config" />
         <module name="rexyn_common" />
         <module name="rexyn_user" />
         <module name="rexyn_rabbitmq_test" />
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="rexyn_base" options="-parameters" />
       <module name="rexyn_common" options="-parameters" />
+      <module name="rexyn_config" options="-parameters" />
       <module name="rexyn_eureka" options="-parameters" />
       <module name="rexyn_feign_test" options="-parameters" />
       <module name="rexyn_manager" options="-parameters" />
