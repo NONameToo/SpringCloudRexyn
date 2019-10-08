@@ -1,4 +1,4 @@
-package com.rexyn.manager;
+package com.rexyn.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,9 +17,9 @@ import util.JwtUtil;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableZuulProxy
-public class ManagerApplication {
+public class GatewayApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ManagerApplication.class,args);
+        SpringApplication.run(GatewayApplication.class,args);
     }
 
     @Bean

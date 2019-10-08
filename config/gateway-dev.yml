@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: rexyn-manager
+    name: rexyn-gateway
 
 eureka:
   client:

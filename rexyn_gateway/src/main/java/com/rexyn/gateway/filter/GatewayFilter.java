@@ -1,4 +1,4 @@
-package com.rexyn.manager.filter;
+package com.rexyn.gateway.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Version 1.0
  **/
 @Component
-public class ManagerFilter extends ZuulFilter {
+public class GatewayFilter extends ZuulFilter {
 
     @Autowired
     private JwtUtil jwtUtil;
