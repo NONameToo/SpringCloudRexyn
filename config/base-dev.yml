@@ -7,7 +7,7 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.199.210:3306/rexyn_base?characterEncoding=utf-8
+    url: jdbc:mysql://192.168.199.190:3306/rexyn_base?characterEncoding=utf-8
     username: root
     password: root
 
@@ -15,9 +15,9 @@ spring:
     database: mysql
     show-sql: true
   redis:
-    host: 192.168.199.210
+    host: 192.168.199.190
   rabbitmq:
-    host: 192.168.199.210
+    host: 192.168.199.190
 
 eureka:
   client:
