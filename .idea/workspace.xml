@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa3d2fe4-e7b8-49db-a98a-b3e76487fb54" name="Default Changelist" comment="" />
+    <list default="true" id="fa3d2fe4-e7b8-49db-a98a-b3e76487fb54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rexyn_common/target/" />
@@ -474,7 +476,7 @@
       <workItem from="1570670394405" duration="7363000" />
       <workItem from="1571299253839" duration="1291000" />
       <workItem from="1571625267253" duration="2344000" />
-      <workItem from="1571634391217" duration="1746000" />
+      <workItem from="1571634391217" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka注册中心的服务间的调用Feign">
       <created>1567129973669</created>
@@ -567,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571641559506</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="工作流一小部分">
+      <created>1571642008645</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571642008645</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -603,7 +612,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190910000" />
+    <option name="totallyTimeSpent" value="191438000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -634,7 +643,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34468085" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.61702126" />
