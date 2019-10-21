@@ -17,6 +17,7 @@
         <module>rexyn_feign_test</module>
         <module>rexyn_manager</module>
         <module>rexyn_config</module>
+        <module>rexyn_activitiTest</module>
     </modules>
     <packaging>pom</packaging>
 

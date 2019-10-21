@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+
+    <!--activiti单独运行的processEngine配置对象 -->
+    <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+        <!-- 配置流程引擎配置对象 -->
+        <property name="jdbcDriver" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://192.168.199.190:3306/rexyn_activiti?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"></property>
+        <property name="jdbcUsername" value="root"></property>
+        <property name="jdbcPassword" value="root"></property>
+        <!-- 注入数据源信息 -->
+        <property name="databaseSchemaUpdate" value="true"></property>
+    </bean>
+</beans>
