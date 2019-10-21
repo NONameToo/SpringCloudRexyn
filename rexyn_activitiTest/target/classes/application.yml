@@ -1,0 +1,16 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: rexyn-activitiTest
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.199.190:3306/rexyn_activiti?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+  activiti:
+    check-process-definitions: false
+    database-schema-update: true

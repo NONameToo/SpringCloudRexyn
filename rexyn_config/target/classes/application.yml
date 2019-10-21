@@ -1,0 +1,24 @@
+server:
+  port: 11111
+
+
+spring:
+  application:
+    name: rexyn-config
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/fushaokai/rexyn_project.git
+
+  rabbitmq:
+    host: 192.168.199.190
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+
