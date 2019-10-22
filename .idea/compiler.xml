@@ -14,12 +14,10 @@
         <module name="rexyn_rabbitmq_test" />
         <module name="rexyn_msg" />
         <module name="rexyn_eureka" />
+        <module name="rexyn_gateway" />
         <module name="rexyn_feign_test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="rexyn_gateway" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
