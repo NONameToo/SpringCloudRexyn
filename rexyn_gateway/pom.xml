@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rexyn_manager</artifactId>
+    <artifactId>rexyn_gateway</artifactId>
 
     <dependencies>
         <dependency>
