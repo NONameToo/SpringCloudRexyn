@@ -1,59 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa3d2fe4-e7b8-49db-a98a-b3e76487fb54" name="Default Changelist" comment="修改配置文件">
-      <change afterPath="$PROJECT_DIR$/file/activiti/FileOutPutStream/BPMTestFile3.bpmn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/activiti/FileOutPutStream/BPMTestFile3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/activiti/FileOutPutStream/BPMTestFile3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiDecision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/BaseControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/bpmn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile2.bpmn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile3.bpmn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.bpmn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fa3d2fe4-e7b8-49db-a98a-b3e76487fb54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/gateway-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/gateway-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/config/ActivitiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/config/ActivitiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiDeployment.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiDeployment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/npmn/BPMTestFile.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile.bpmn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/npmn/BPMTestFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/config/ActivitiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/config/ActivitiConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/dev/ActivitiDeployment.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/dev/ActivitiDeployment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/dev/TaskQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/npmn/BPMTestFile.bpmn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/npmn/BPMTestFile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/test-classes/com/rexyn/activiti/ActivitiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/test-classes/com/rexyn/activiti/ActivitiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_base/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_base/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_common/src/main/java/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_common/src/main/java/entity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_common/target/classes/entity/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_common/target/classes/entity/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_eureka/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_eureka/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_feign_test/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_feign_test/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_gateway/rexyn_gateway.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_gateway/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_msg/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_msg/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_rabbitmq_test/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_rabbitmq_test/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_user/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_user/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -80,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="154" column="30" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="57" />
+            <state relative-caret-position="378">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
+            <state relative-caret-position="-531">
+              <caret line="361" column="104" lean-forward="true" selection-start-line="361" selection-start-column="104" selection-end-line="361" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#8881#8889#0" expanded="true" />
@@ -104,19 +55,6 @@
                 <element signature="e#16608#16616#0" expanded="true" />
                 <element signature="e#15230#15238#0" expanded="true" />
                 <element signature="e#15355#15363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/HistoricScopeInstanceEntityImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-              <folding>
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2083#2084#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -265,8 +203,8 @@
         <option value="$PROJECT_DIR$/rexyn_common/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_common/src/main/java/entity/Result.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" />
-        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" />
       </list>
     </option>
   </component>
@@ -342,63 +280,6 @@
               <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -409,114 +290,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="bpmn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-7-201802-EA.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-7-201802-EA.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-7-201802-EA.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-7-201802-EA.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -792,7 +565,7 @@
       <workItem from="1572485859917" duration="5150000" />
       <workItem from="1572506946429" duration="4792000" />
       <workItem from="1572511892921" duration="21830000" />
-      <workItem from="1572832493623" duration="9829000" />
+      <workItem from="1572832493623" duration="12300000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka注册中心的服务间的调用Feign">
       <created>1567129973669</created>
@@ -927,7 +700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571734700665</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="工作流常用接口搞定">
+      <created>1572842939668</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572842939668</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -963,7 +743,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275316000" />
+    <option name="totallyTimeSpent" value="277787000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -976,8 +756,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28926176" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26845637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -988,11 +769,11 @@
       <window_info id="BPMN Editor" order="8" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6141844" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17730497" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.73475176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.67659575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34468085" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -1001,7 +782,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3294702" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.4539007" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.2964539" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24899329" />
@@ -1108,7 +889,8 @@
     <MESSAGE value="Spring全家桶整合完毕,准备整合工作流" />
     <MESSAGE value="工作流一小部分" />
     <MESSAGE value="修改配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改配置文件" />
+    <MESSAGE value="工作流常用接口搞定" />
+    <option name="LAST_COMMIT_MESSAGE" value="工作流常用接口搞定" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1406,22 +1188,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/HistoricScopeInstanceEntityImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-          <folding>
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2083#2084#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1437,20 +1205,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java">
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/HistoricScopeInstanceEntityImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="154" column="30" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="57" />
+        <state relative-caret-position="105">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
+        <state relative-caret-position="-531">
+          <caret line="361" column="104" lean-forward="true" selection-start-line="361" selection-start-column="104" selection-end-line="361" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#8881#8889#0" expanded="true" />
@@ -1458,6 +1230,16 @@
             <element signature="e#16608#16616#0" expanded="true" />
             <element signature="e#15230#15238#0" expanded="true" />
             <element signature="e#15355#15363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

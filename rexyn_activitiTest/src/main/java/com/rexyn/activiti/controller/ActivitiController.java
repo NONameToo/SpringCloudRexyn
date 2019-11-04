@@ -4,13 +4,11 @@ import com.rexyn.activiti.service.AcitivitiService;
 import entity.Result;
 import entity.StatusCode;
 import org.activiti.engine.history.HistoricTaskInstance;
-import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
 
@@ -76,8 +74,8 @@ public class ActivitiController {
      */
     @RequestMapping(value = "/createInstance/{key}",method = RequestMethod.POST)
     public Result createInstance(@PathVariable String key, @RequestBody Map<String, Object> curMap) {
-        acitivitiService.createInstance(key,curMap);
-        return new Result(true, StatusCode.OK,"启流程实例成功!");
+        String instance = acitivitiService.createInstance(key, curMap);
+        return new Result(true, StatusCode.OK,"启流程实例成功!",instance);
     }
 
     /**

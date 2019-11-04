@@ -363,7 +363,7 @@ public class AcitivitiService {
 
 //                 获取流程历史中已执行节点，并按照节点在流程中执行先后顺序排序
                 List<HistoricActivityInstance> historicActivityInstanceList = historyService.createHistoricActivityInstanceQuery()
-                        .processInstanceId(processInstanceId).orderByHistoricActivityInstanceId().asc().list();
+                        .processInstanceId(processInstanceId).orderByHistoricActivityInstanceId().desc().list();
 
 
                 // 已执行的节点ID集合
@@ -371,7 +371,9 @@ public class AcitivitiService {
                 int index = 1;
                 //logger.info("获取已经执行的节点ID");
                 for (HistoricActivityInstance activityInstance : historicActivityInstanceList) {
-                    executedActivityIdList.add(activityInstance.getActivityId());
+                    if(!activityInstance.getActivityType().endsWith("Gateway") && !activityInstance.getActivityType().endsWith("Event")){
+                        executedActivityIdList.add(activityInstance.getActivityId());
+                    }
 
                     //logger.info("第[" + index + "]个已执行节点=" + activityInstance.getActivityId() + " : " +activityInstance.getActivityName());
                     index++;
