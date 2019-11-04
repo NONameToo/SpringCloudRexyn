@@ -3,6 +3,7 @@ package com.rexyn.activiti.controller;
 import com.rexyn.activiti.service.AcitivitiService;
 import entity.Result;
 import entity.StatusCode;
+import exception.ActivitiServiceException;
 import org.activiti.engine.history.HistoricTaskInstance;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -84,7 +85,7 @@ public class ActivitiController {
      * @return
      */
     @RequestMapping(value = "/getTaskNameByProcessInstanceId/{processInstanceId}",method = RequestMethod.GET)
-    public Result getTaskNameByProcessInstanceId(String processInstanceId) {
+    public Result getTaskNameByProcessInstanceId(String processInstanceId) throws ActivitiServiceException {
         String taskName = acitivitiService.getTaskNameByProcessInstanceId(processInstanceId);
         return new Result(true, StatusCode.OK,"根据流程实例id获取当前流程节点的任务名字成功!",taskName);
     }
@@ -194,23 +195,8 @@ public class ActivitiController {
 
     @RequestMapping(value = "/dbBackTo/{currentTaskId}/{backToTaskId}",method = RequestMethod.POST)
     public Result  dbBackTo(@PathVariable("currentTaskId") String currentTaskId,@PathVariable("backToTaskId") String backToTaskId) {
-//        int i = acitivitiService.dbBackTo(currentTaskId, backToTaskId);
-        acitivitiService.jump(currentTaskId);
-
-//        if (i == 0) {
-//            return new Result(false, StatusCode.ERROR, "不能回退流程，找不到相应的流程节点!");
-//        } else if (i == 1) {
-//            return new Result(true, StatusCode.OK, "回退流程成功!");
-//
-//        } else if (i == 2) {
-//            return new Result(false, StatusCode.ERROR, "任务未找到!");
-//
-//        } else if (i == 3) {
-//            return new Result(false, StatusCode.ERROR, "操作失败,回滚事务!");
-//        }
-//
+        acitivitiService.jumpProcess(currentTaskId,backToTaskId);
         return new Result(true, StatusCode.OK,"退回流程成功!");
-
     }
 
 }

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa3d2fe4-e7b8-49db-a98a-b3e76487fb54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rexyn_common/src/main/java/exception/ActivitiServiceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/test-classes/com/rexyn/activiti/ActivitiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/test-classes/com/rexyn/activiti/ActivitiTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="125">
+              <caret line="88" column="53" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,28 +46,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-531">
-              <caret line="361" column="104" lean-forward="true" selection-start-line="361" selection-start-column="104" selection-end-line="361" selection-end-column="104" />
+            <state relative-caret-position="203">
+              <caret line="356" column="13" lean-forward="true" selection-start-line="356" selection-start-column="13" selection-end-line="356" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8881#8889#0" expanded="true" />
-                <element signature="e#15950#15958#0" expanded="true" />
-                <element signature="e#16608#16616#0" expanded="true" />
-                <element signature="e#15230#15238#0" expanded="true" />
-                <element signature="e#15355#15363#0" expanded="true" />
+                <element signature="e#11925#11933#0" expanded="true" />
+                <element signature="e#12543#12551#0" expanded="true" />
+                <element signature="e#14840#14848#0" expanded="true" />
+                <element signature="e#14956#14964#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/TaskEntityImpl.class">
+        <entry file="file://$PROJECT_DIR$/rexyn_common/src/main/java/exception/ActivitiServiceException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="273">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/RepositoryService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="467" selection-start-line="467" selection-end-line="467" />
             </state>
           </provider>
         </entry>
@@ -72,20 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/JDK8/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
+            <state relative-caret-position="226">
               <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2237">
-              <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +159,7 @@
       <find>objId</find>
       <find>executedActivityIdList</find>
       <find>index</find>
+      <find>RuntimeException</find>
     </findStrings>
     <replaceStrings>
       <replace>192.168.199.210</replace>
@@ -146,6 +170,7 @@
       <replace />
       <replace>5.22.0</replace>
       <replace>activitiConstant</replace>
+      <replace>ActivitiServiceException</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -154,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rexyn_user/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/rexyn_manager/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config/base-dev.yml" />
@@ -203,8 +227,9 @@
         <option value="$PROJECT_DIR$/rexyn_common/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_common/src/main/java/entity/Result.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" />
-        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" />
+        <option value="$PROJECT_DIR$/rexyn_common/src/main/java/exception/ActivitiServiceException.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" />
       </list>
     </option>
   </component>
@@ -259,37 +284,37 @@
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,7 +403,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivitiTest.deploymentActiviti2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivitiTest.queryProcessDefinition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rexyn_activitiTest" />
       <extension name="coverage">
         <pattern>
@@ -388,7 +413,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rexyn.activiti" />
       <option name="MAIN_CLASS_NAME" value="com.rexyn.activiti.ActivitiTest" />
-      <option name="METHOD_NAME" value="deploymentActiviti2" />
+      <option name="METHOD_NAME" value="queryProcessDefinition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -507,11 +532,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ActivitiTest.queryProcessDefinition" />
         <item itemvalue="JUnit.ActivitiTest.taskQuery1" />
         <item itemvalue="JUnit.ActivitiTest.taskQuery" />
         <item itemvalue="JUnit.ActivitiTest.deploymentActiviti" />
         <item itemvalue="JUnit.ActivitiTest.startProcessInstanceAndBusinessKeyAndAssignee" />
-        <item itemvalue="JUnit.ActivitiTest.deploymentActiviti2" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +590,7 @@
       <workItem from="1572485859917" duration="5150000" />
       <workItem from="1572506946429" duration="4792000" />
       <workItem from="1572511892921" duration="21830000" />
-      <workItem from="1572832493623" duration="12300000" />
+      <workItem from="1572832493623" duration="18498000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka注册中心的服务间的调用Feign">
       <created>1567129973669</created>
@@ -707,16 +732,17 @@
       <option name="project" value="LOCAL" />
       <updated>1572842939668</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="修复流程图进度查看">
+      <created>1572849689462</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1572849689462</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ActivitiTest_deploymentActiviti - 2019.10.29 at 14h 56m 40s.xml">
-      <configuration name="ActivitiTest.deploymentActiviti" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActivitiTest_deploymentActiviti - 2019.10.29 at 14h 57m 52s.xml">
-      <configuration name="ActivitiTest.deploymentActiviti" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ActivitiTest_taskQuery1 - 2019.11.04 at 09h 48m 32s.xml">
       <configuration name="ActivitiTest.taskQuery1" configurationId="JUnit" />
     </history-entry>
@@ -741,9 +767,15 @@
     <history-entry file="ActivitiTest_taskQuery1 - 2019.11.04 at 10h 03m 44s.xml">
       <configuration name="ActivitiTest.taskQuery1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ActivitiTest_queryProcessDefinition - 2019.11.04 at 15h 22m 16s.xml">
+      <configuration name="ActivitiTest.queryProcessDefinition" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActivitiTest_queryProcessDefinition - 2019.11.04 at 15h 27m 07s.xml">
+      <configuration name="ActivitiTest.queryProcessDefinition" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277787000" />
+    <option name="totallyTimeSpent" value="283985000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -782,7 +814,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3294702" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.2964539" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4283688" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24899329" />
@@ -890,7 +922,8 @@
     <MESSAGE value="工作流一小部分" />
     <MESSAGE value="修改配置文件" />
     <MESSAGE value="工作流常用接口搞定" />
-    <option name="LAST_COMMIT_MESSAGE" value="工作流常用接口搞定" />
+    <MESSAGE value="修复流程图进度查看" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复流程图进度查看" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -913,9 +946,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/config/Activiti7ApplicationConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/rexyn_activiti7/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/util/SecurityUtil.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/db/DbSqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1143,34 +1173,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/TaskEntityImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2237">
-          <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,23 +1197,6 @@
     <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/RepositoryService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/HistoricScopeInstanceEntityImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1219,27 +1208,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java">
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/TaskEntityImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="361" column="104" lean-forward="true" selection-start-line="361" selection-start-column="104" selection-end-line="361" selection-end-column="104" />
+        <state relative-caret-position="126">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="276" column="43" selection-start-line="276" selection-start-column="43" selection-end-line="276" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8881#8889#0" expanded="true" />
-            <element signature="e#15950#15958#0" expanded="true" />
-            <element signature="e#16608#16616#0" expanded="true" />
-            <element signature="e#15230#15238#0" expanded="true" />
-            <element signature="e#15355#15363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/RepositoryService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="467" selection-start-line="467" selection-end-line="467" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_common/src/main/java/exception/ActivitiServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="125">
+          <caret line="88" column="53" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="356" column="13" lean-forward="true" selection-start-line="356" selection-start-column="13" selection-end-line="356" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11925#11933#0" expanded="true" />
+            <element signature="e#12543#12551#0" expanded="true" />
+            <element signature="e#14840#14848#0" expanded="true" />
+            <element signature="e#14956#14964#0" expanded="true" />
           </folding>
         </state>
       </provider>

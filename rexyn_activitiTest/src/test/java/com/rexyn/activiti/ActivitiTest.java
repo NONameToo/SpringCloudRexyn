@@ -274,7 +274,7 @@ public class ActivitiTest {
         ProcessDefinitionQuery processDefinitionQuery = repositoryService.createProcessDefinitionQuery();
         // 4.设置查询条件
         List<ProcessDefinition> processDefinitionList = processDefinitionQuery
-                .processDefinitionKey("TestProcess2")
+                .processDefinitionKey("Land")
                 .orderByProcessDefinitionVersion()  // 以流程定义的版本号排序
                 .desc()             // 降序,新版本的排在最前面
                 .list();
