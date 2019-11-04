@@ -443,8 +443,8 @@ public class AcitivitiService {
         return historyService.createHistoricTaskInstanceQuery().executionId(oldProcessInstanceId).list();
     }
 
-    // 回退流程
-    public Map<String, String> getCurrentAndBackTask(String processInstanceId) {
+    // 是否可以回退流程
+    public Map<String, String> getCurrentAndBackTask(String executionId) throws ActivitiServiceException {
         Map<String, String> taskMap = new HashMap<String, String>();
         String currentTaskId;//当前节点
         String currentTaskName;
@@ -452,9 +452,18 @@ public class AcitivitiService {
         String backToTaskName;
 
         List<HistoricTaskInstance> currTaskList = historyService
-                .createHistoricTaskInstanceQuery().executionId(processInstanceId).list();
+                .createHistoricTaskInstanceQuery().executionId(executionId).list();
         if (currTaskList == null || currTaskList.size() < 3) {
             return null;
+        }
+        List<HistoricActivityInstance> historicActivityInstanceList = historyService.createHistoricActivityInstanceQuery()
+                .executionId(executionId).orderByHistoricActivityInstanceStartTime().desc().list();
+        if (historicActivityInstanceList == null || historicActivityInstanceList.size() == 0) {
+            throw new ActivitiServiceException("流程实例id错误,记录不存在!");
+        }
+
+        if (historicActivityInstanceList.get(0).getActivityType().equals("endEvent")){
+            throw new ActivitiServiceException("流程已经结束!无法回退!");
         }
         currentTaskId = currTaskList.get(currTaskList.size() - 1).getId();
         currentTaskName = currTaskList.get(currTaskList.size() - 1).getName();
@@ -470,14 +479,18 @@ public class AcitivitiService {
 
 
     // 跳转流程方法
-    public void jumpProcess(String currentTaskId, String targetTaskId) {
+    public void jumpProcess(String currentTaskId, String targetTaskId) throws ActivitiServiceException {
         //当前任务
         Task currentTask = taskService.createTaskQuery().taskId(currentTaskId).singleResult();
+        if (currentTask == null){
+            throw new ActivitiServiceException("回退流程失败,流程不存在,或者已经结束!");
+        }
         //目标任务
 //        Task targetTask = taskService.createTaskQuery().taskId(targetTaskId).singleResult();
         HistoricTaskInstance historicTaskInstance = historyService.createHistoricTaskInstanceQuery().taskId(targetTaskId).singleResult();
-        //获取流程定义
+        //获取流程
         Process process = repositoryService.getBpmnModel(currentTask.getProcessDefinitionId()).getMainProcess();
+
         //获取目标节点定义
 //        FlowNode targetNode = (FlowNode)process.getFlowElement("startTask");
 //        FlowNode targetNode = (FlowNode)process.getFlowElement("reviewTask");
@@ -535,6 +548,4 @@ public class AcitivitiService {
             return null;
         }
     }
-
-
 }

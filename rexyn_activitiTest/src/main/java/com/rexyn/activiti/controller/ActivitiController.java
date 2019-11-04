@@ -178,12 +178,13 @@ public class ActivitiController {
 
     /**
      * 查询是否可以回退流程
-     * @param processInstanceId
+     * @param executionId
      * @return
+     * @throws ActivitiServiceException
      */
-    @RequestMapping(value = "/getCurrentAndBackTask/{processInstanceId}",method = RequestMethod.GET)
-    public Result  getCurrentAndBackTask(@PathVariable("processInstanceId") String processInstanceId){
-        Map<String, String> map = acitivitiService.getCurrentAndBackTask(processInstanceId);
+    @RequestMapping(value = "/getCurrentAndBackTask/{executionId}",method = RequestMethod.GET)
+    public Result  getCurrentAndBackTask(@PathVariable("executionId") String executionId) throws ActivitiServiceException {
+        Map<String, String> map = acitivitiService.getCurrentAndBackTask(executionId);
 
         if(map == null){
             return new Result(false, StatusCode.ERROR,"不能回退流程，找不到相应的流程节点!");
@@ -194,7 +195,7 @@ public class ActivitiController {
     }
 
     @RequestMapping(value = "/dbBackTo/{currentTaskId}/{backToTaskId}",method = RequestMethod.POST)
-    public Result  dbBackTo(@PathVariable("currentTaskId") String currentTaskId,@PathVariable("backToTaskId") String backToTaskId) {
+    public Result  dbBackTo(@PathVariable("currentTaskId") String currentTaskId,@PathVariable("backToTaskId") String backToTaskId) throws ActivitiServiceException {
         acitivitiService.jumpProcess(currentTaskId,backToTaskId);
         return new Result(true, StatusCode.OK,"退回流程成功!");
     }
