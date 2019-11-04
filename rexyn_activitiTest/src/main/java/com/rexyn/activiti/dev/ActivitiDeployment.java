@@ -33,7 +33,7 @@ public class ActivitiDeployment {
         RepositoryService repositoryService = processEngine.getRepositoryService();
         // 3.进行部署
         Deployment deployment = repositoryService.createDeployment()
-                .addClasspathResource("npmn/BPMTestFile.bpmn")    //指定bpmn文件
+                .addClasspathResource("bpmn/BPMTestFile.bpmn")    //指定bpmn文件
                 .addClasspathResource("png/BPMTestFile.png")      //指定流程图文件
                 .name("流程测试")                                  // 指定流程名称
                 .deploy();

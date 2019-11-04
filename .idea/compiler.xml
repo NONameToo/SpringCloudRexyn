@@ -18,9 +18,13 @@
         <module name="rexyn_feign_test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rexyn_activiti7" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rexyn_activiti7" options="-parameters" />
       <module name="rexyn_activitiTest" options="-parameters" />
       <module name="rexyn_base" options="-parameters" />
       <module name="rexyn_common" options="-parameters" />

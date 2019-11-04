@@ -1,7 +1,6 @@
 package com.rexyn.activiti.config;
 
-import org.activiti.engine.ProcessEngine;
-import org.activiti.engine.ProcessEngineConfiguration;
+import org.activiti.engine.*;
 import org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -13,7 +12,7 @@ import javax.sql.DataSource;
  * @ClassName fushaokai
  * @Description TODO
  * @Author PCMSI
- * @Date 2019/10/9 12:01
+ * @Date 2019/10/29 12:01
  * @Version 1.0
  **/
 @Configuration
@@ -21,6 +20,9 @@ public class ActivitiConfig {
 
     @Autowired
     private DataSource dataSource;
+
+    @Autowired
+    private ProcessEngine processEngine;
 
     /**
      * 初始化配置,创建25张表
@@ -43,7 +45,41 @@ public class ActivitiConfig {
      */
 
     @Bean
-    public ProcessEngine processEngine() {
+    public ProcessEngine createProcessEngine() {
         return processEngineConfiguration().buildProcessEngine();
+    }
+
+    /**
+     * 创建几个工作流常用的Service,放到Spring容器里面
+     * @return
+     */
+    @Bean
+    public RepositoryService createRepositoryService() {
+        return processEngine.getRepositoryService();
+    }
+
+    @Bean
+    public RuntimeService createRuntimeService() {
+        return processEngine.getRuntimeService();
+    }
+
+    @Bean
+    public TaskService createTaskService() {
+        return processEngine.getTaskService();
+    }
+
+    @Bean
+    public HistoryService createHistoryService() {
+        return processEngine.getHistoryService();
+    }
+
+    @Bean
+    public ManagementService managementService() {
+        return processEngine.getManagementService();
+    }
+
+    @Bean
+    public DynamicBpmnService dynamicBpmnService() {
+        return processEngine.getDynamicBpmnService();
     }
 }

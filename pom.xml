@@ -18,6 +18,7 @@
         <module>rexyn_gateway</module>
         <module>rexyn_config</module>
         <module>rexyn_activitiTest</module>
+        <module>rexyn_activiti7</module>
     </modules>
     <packaging>pom</packaging>
 

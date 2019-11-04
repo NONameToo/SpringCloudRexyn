@@ -26,4 +26,3 @@ jwt:
   config:
     key: rexyn
     ttl: 86400000
-

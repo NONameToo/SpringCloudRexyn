@@ -1,25 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa3d2fe4-e7b8-49db-a98a-b3e76487fb54" name="Default Changelist" comment="">
+    <list default="true" id="fa3d2fe4-e7b8-49db-a98a-b3e76487fb54" name="Default Changelist" comment="修改配置文件">
+      <change afterPath="$PROJECT_DIR$/file/activiti/FileOutPutStream/BPMTestFile3.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/activiti/FileOutPutStream/BPMTestFile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/activiti/FileOutPutStream/BPMTestFile3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiDecision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/BaseControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/bpmn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile2.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile3.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/eureka-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/eureka-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_base/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_base/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_feign_test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_feign_test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_feign_test/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_feign_test/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_msg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_msg/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_msg/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_msg/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_rabbitmq_test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_rabbitmq_test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_rabbitmq_test/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_rabbitmq_test/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_rabbitmq_test/target/classes/META-INF/rexyn_rabbitmq_test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_rabbitmq_test/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_rabbitmq_test/target/test-classes/META-INF/rexyn_rabbitmq_test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rexyn_user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/gateway-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/gateway-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/config/ActivitiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/config/ActivitiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiDeployment.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiDeployment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/npmn/BPMTestFile.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/npmn/BPMTestFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/config/ActivitiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/config/ActivitiConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/dev/ActivitiDeployment.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/dev/ActivitiDeployment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/com/rexyn/activiti/dev/TaskQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/npmn/BPMTestFile.bpmn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/classes/npmn/BPMTestFile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_activitiTest/target/test-classes/com/rexyn/activiti/ActivitiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_activitiTest/target/test-classes/com/rexyn/activiti/ActivitiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_base/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_base/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_common/src/main/java/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_common/src/main/java/entity/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_common/target/classes/entity/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_common/target/classes/entity/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_eureka/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_eureka/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_feign_test/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_feign_test/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_gateway/rexyn_gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_msg/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_msg/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_rabbitmq_test/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_rabbitmq_test/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rexyn_user/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rexyn_user/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +68,7 @@
     <ignored path="$PROJECT_DIR$/rexyn_config/target/" />
     <ignored path="$PROJECT_DIR$/rexyn_gateway/target/" />
     <ignored path="$PROJECT_DIR$/rexyn_activitiTest/target/" />
+    <ignored path="$PROJECT_DIR$/rexyn_activiti7/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,91 +81,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_config/pom.xml">
+        <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="58" column="12" selection-start-line="30" selection-start-column="4" selection-end-line="58" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_feign_test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_gateway/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_msg/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_rabbitmq_test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_user/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_feign_test/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="263">
+              <caret line="154" column="30" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rexyn_rabbitmq_test/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="77">
+              <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#8881#8889#0" expanded="true" />
+                <element signature="e#15950#15958#0" expanded="true" />
+                <element signature="e#16608#16616#0" expanded="true" />
+                <element signature="e#15230#15238#0" expanded="true" />
+                <element signature="e#15355#15363#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_base/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/HistoricScopeInstanceEntityImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+            <state relative-caret-position="987">
+              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+              <folding>
+                <element signature="e#2043#2044#0" expanded="true" />
+                <element signature="e#2083#2084#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/resources/bootstrap.yml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/TaskEntityImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="126">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/JDK8/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2237">
+              <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -155,13 +181,33 @@
       <find>roles</find>
       <find>192.168.199.210</find>
       <find>http://127.0.0.1:11111</find>
+      <find>startUp</find>
+      <find>srcPath</find>
+      <find>getName</find>
+      <find>taskService</find>
+      <find>findActiviti</find>
+      <find>${activiti.version}</find>
+      <find>getHighLightedFlows</find>
+      <find>getHisTask</find>
+      <find>p</find>
+      <find>copy</find>
+      <find>resourceName</find>
+      <find>getCurrentAndBackTask</find>
+      <find>isActive</find>
+      <find>loginUser</find>
+      <find>objId</find>
+      <find>executedActivityIdList</find>
+      <find>index</find>
     </findStrings>
     <replaceStrings>
-      <replace />
       <replace>192.168.199.210</replace>
       <replace>root</replace>
       <replace>192.168.199.190</replace>
       <replace>http://192.168.199.190:11111</replace>
+      <replace>BPMNPATH</replace>
+      <replace />
+      <replace>5.22.0</replace>
+      <replace>activitiConstant</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -170,43 +216,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rexyn_user/src/main/java/com/rexyn/user/UserApplication.java" />
-        <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/feign/FeignClint.java" />
-        <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/feign/FeignClient.java" />
-        <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/FeignTestApplication.java" />
-        <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/com/FeignTestController.java" />
-        <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/controller/FeignTestController.java" />
-        <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/feign/feignImpl/BaseFeignImpl.java" />
-        <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/feign/BaseFeign.java" />
-        <option value="$PROJECT_DIR$/rexyn_manager/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/rexyn_manager/src/main/java/com/rexyn/manager/ManagerApplication.java" />
-        <option value="$PROJECT_DIR$/rexyn_manager/src/main/java/com/rexyn/manager/filter/ManagerFilter.java" />
-        <option value="$PROJECT_DIR$/rexyn_config/src/main/java/com/rexyn/config/ConfigApplication.java" />
-        <option value="$PROJECT_DIR$/rexyn_manager/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/rexyn_msg/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/rexyn_rabbitmq_test/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/rexyn_user/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/rexyn_manager/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config/base-dev.yml" />
         <option value="$PROJECT_DIR$/config/feigntest-dev.yml" />
         <option value="$PROJECT_DIR$/config/manager-dev.yml" />
-        <option value="$PROJECT_DIR$/rexyn_common/pom.xml" />
         <option value="$PROJECT_DIR$/file/BPMTestFile.bpmn" />
-        <option value="$PROJECT_DIR$/rexyn_activitiTest/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activitiTestCreate25Tables.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/activitiTestCreate25Tables.java" />
-        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/config/ActivitiConfig.java" />
         <option value="$PROJECT_DIR$/file/activiti/npmn/BPMTestFile.bpmn" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiDeploment.java" />
-        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/activiti.cfg.xml" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiDeployment.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiDeployment.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiStartInstance.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/TaskQuery.java" />
-        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" />
         <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiCompleteTask.java" />
         <option value="$PROJECT_DIR$/rexyn_config/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -216,11 +241,32 @@
         <option value="$PROJECT_DIR$/rexyn_base/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_base/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/rexyn_feign_test/pom.xml" />
-        <option value="$PROJECT_DIR$/rexyn_gateway/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_msg/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_rabbitmq_test/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_user/pom.xml" />
         <option value="$PROJECT_DIR$/rexyn_feign_test/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/rexyn_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/config/gateway-dev.yml" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/npmn/BPMTestFile.bpmn" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/npmn/BPMTestFile2.bpmn" />
+        <option value="$PROJECT_DIR$/file/activiti/FileOutPutStream/BPMTestFile3.bpmn" />
+        <option value="$PROJECT_DIR$/rexyn_activiti7/pom.xml" />
+        <option value="$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/DemoApplicationConfiguration.java" />
+        <option value="$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/config/DemoApplicationConfiguration.java" />
+        <option value="$PROJECT_DIR$/rexyn_activiti7/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/Demo.java" />
+        <option value="$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/config/Activiti7ApplicationConfiguration.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/config/ActivitiConfig.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiDecision.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/pom.xml" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiConstant.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/BaseControllerExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/rexyn_common/pom.xml" />
+        <option value="$PROJECT_DIR$/rexyn_common/src/main/java/entity/Result.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java" />
+        <option value="$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java" />
       </list>
     </option>
   </component>
@@ -251,8 +297,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="-135" />
+    <option name="y" value="110" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -275,25 +321,82 @@
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_feign_test" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_feign_test" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_feign_test" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_feign_test" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -301,35 +404,126 @@
             <path>
               <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_rabbitmq_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_rabbitmq_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_rabbitmq_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rexyn_rabbitmq_test" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bpmn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_activitiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rexyn_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
+              <item name="activiti-engine-7-201802-EA.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
+              <item name="activiti-engine-7-201802-EA.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
+              <item name="activiti-engine-7-201802-EA.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rexyn_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.activiti:activiti-engine:7-201802-EA" type="70bed36:NamedLibraryElementNode" />
+              <item name="activiti-engine-7-201802-EA.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +534,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/ZSK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../分布式事务/seata实现分布式事务" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -355,23 +549,25 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\微服务\newProject\file\activiti\npmn" />
-      <recent name="E:\WeiFuWu\newProject\config" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.rexyn.customer" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\微服务\newProject\rexyn_activitiTest\src\main\resources\bpmn" />
+      <recent name="D:\微服务\newProject\rexyn_activitiTest\src\main\java\com\rexyn\activiti\common" />
+      <recent name="D:\微服务\newProject\rexyn_activiti7\src\main\resources" />
+      <recent name="D:\微服务\newProject\rexyn_activiti7\src\main\java\com\rexyn\activiti7" />
+      <recent name="D:\微服务\newProject\rexyn_activitiTest\src\main\resources\npmn" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rexyn.activiti.controller" />
+      <recent name="com.rexyn.activiti7.config" />
       <recent name="com.rexyn.controller" />
       <recent name="com.rexyn.rabbit.customer" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\微服务\newProject\rexyn_activitiTest\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\微服务\newProject\file\activiti\npmn" />
-      <recent name="E:\WeiFuWu\newProject\rexyn_eureka\src\main\resources" />
       <recent name="E:\WeiFuWu\newProject\config" />
-      <recent name="E:\WeiFuWu\newProject\rexyn_base\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,34 +588,8 @@
     </option>
     <option name="contentProportion" value="0.2134063" />
   </component>
-  <component name="RunManager" selected="JUnit.ActivitiTest.completeTask">
-    <configuration name="ActivitiStartInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rexyn.activiti.dev.ActivitiStartInstance" />
-      <module name="rexyn_activitiTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rexyn.activiti.dev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActivitiTaskQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rexyn.activiti.dev.ActivitiTaskQuery" />
-      <module name="rexyn_activitiTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rexyn.activiti.dev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActivitiTest.completeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ActivitiTestCreate25Tables">
+    <configuration name="ActivitiTest.deploymentActiviti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rexyn_activitiTest" />
       <extension name="coverage">
         <pattern>
@@ -429,13 +599,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rexyn.activiti" />
       <option name="MAIN_CLASS_NAME" value="com.rexyn.activiti.ActivitiTest" />
-      <option name="METHOD_NAME" value="completeTask" />
+      <option name="METHOD_NAME" value="deploymentActiviti" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivitiTest.startProcessInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivitiTest.deploymentActiviti2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rexyn_activitiTest" />
       <extension name="coverage">
         <pattern>
@@ -445,7 +615,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rexyn.activiti" />
       <option name="MAIN_CLASS_NAME" value="com.rexyn.activiti.ActivitiTest" />
-      <option name="METHOD_NAME" value="startProcessInstance" />
+      <option name="METHOD_NAME" value="deploymentActiviti2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiTest.startProcessInstanceAndBusinessKeyAndAssignee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rexyn_activitiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rexyn.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rexyn.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.rexyn.activiti.ActivitiTest" />
+      <option name="METHOD_NAME" value="startProcessInstanceAndBusinessKeyAndAssignee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -463,6 +649,29 @@
       <option name="MAIN_CLASS_NAME" value="com.rexyn.activiti.ActivitiTest" />
       <option name="METHOD_NAME" value="taskQuery" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiTest.taskQuery1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rexyn_activitiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rexyn.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rexyn.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.rexyn.activiti.ActivitiTest" />
+      <option name="METHOD_NAME" value="taskQuery1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiTestCreate25Tables" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rexyn_activitiTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rexyn.activiti.ActivitiTestCreate25Tables" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -525,11 +734,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ActivitiTest.completeTask" />
+        <item itemvalue="JUnit.ActivitiTest.taskQuery1" />
         <item itemvalue="JUnit.ActivitiTest.taskQuery" />
-        <item itemvalue="JUnit.ActivitiTest.startProcessInstance" />
-        <item itemvalue="Application.ActivitiTaskQuery" />
-        <item itemvalue="Application.ActivitiStartInstance" />
+        <item itemvalue="JUnit.ActivitiTest.deploymentActiviti" />
+        <item itemvalue="JUnit.ActivitiTest.startProcessInstanceAndBusinessKeyAndAssignee" />
+        <item itemvalue="JUnit.ActivitiTest.deploymentActiviti2" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +782,17 @@
       <workItem from="1571299253839" duration="1291000" />
       <workItem from="1571625267253" duration="2344000" />
       <workItem from="1571634391217" duration="3490000" />
-      <workItem from="1571719335378" duration="3929000" />
+      <workItem from="1571719335378" duration="7117000" />
+      <workItem from="1571810965047" duration="2205000" />
+      <workItem from="1571880359729" duration="1551000" />
+      <workItem from="1571882000417" duration="13094000" />
+      <workItem from="1571906941973" duration="2903000" />
+      <workItem from="1572225923655" duration="7334000" />
+      <workItem from="1572329352083" duration="6857000" />
+      <workItem from="1572485859917" duration="5150000" />
+      <workItem from="1572506946429" duration="4792000" />
+      <workItem from="1572511892921" duration="21830000" />
+      <workItem from="1572832493623" duration="9829000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka注册中心的服务间的调用Feign">
       <created>1567129973669</created>
@@ -687,43 +906,64 @@
       <option name="project" value="LOCAL" />
       <updated>1571730544244</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="修改配置文件">
+      <created>1571732702402</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1571732702402</updated>
+    </task>
+    <task id="LOCAL-00018" summary="修改配置文件">
+      <created>1571733256593</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571733256593</updated>
+    </task>
+    <task id="LOCAL-00019" summary="修改配置文件">
+      <created>1571734700665</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571734700665</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ActivitiDeployment_deploymentActiviti - 2019.10.10 at 10h 18m 07s.xml">
-      <configuration name="ActivitiDeployment.deploymentActiviti" configurationId="JUnit" />
+    <history-entry file="ActivitiTest_deploymentActiviti - 2019.10.29 at 14h 56m 40s.xml">
+      <configuration name="ActivitiTest.deploymentActiviti" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActivitiDeployment_deploymentActiviti - 2019.10.10 at 10h 19m 19s.xml">
-      <configuration name="ActivitiDeployment.deploymentActiviti" configurationId="JUnit" />
+    <history-entry file="ActivitiTest_deploymentActiviti - 2019.10.29 at 14h 57m 52s.xml">
+      <configuration name="ActivitiTest.deploymentActiviti" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActivitiDeployment_deploymentActiviti - 2019.10.10 at 10h 21m 19s.xml">
-      <configuration name="ActivitiDeployment.deploymentActiviti" configurationId="JUnit" />
+    <history-entry file="ActivitiTest_taskQuery1 - 2019.11.04 at 09h 48m 32s.xml">
+      <configuration name="ActivitiTest.taskQuery1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActivitiTest_startProcessInstance - 2019.10.10 at 10h 30m 50s.xml">
-      <configuration name="ActivitiTest.startProcessInstance" configurationId="JUnit" />
+    <history-entry file="ActivitiTest_taskQuery1 - 2019.11.04 at 09h 49m 23s.xml">
+      <configuration name="ActivitiTest.taskQuery1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActivitiTest_taskQuery - 2019.10.10 at 10h 49m 42s.xml">
+    <history-entry file="ActivitiTest_taskQuery1 - 2019.11.04 at 09h 55m 55s.xml">
+      <configuration name="ActivitiTest.taskQuery1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActivitiTest_taskQuery1 - 2019.11.04 at 09h 57m 35s.xml">
+      <configuration name="ActivitiTest.taskQuery1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActivitiTest_taskQuery - 2019.11.04 at 09h 58m 23s.xml">
       <configuration name="ActivitiTest.taskQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActivitiTest_completeTask - 2019.10.10 at 11h 01m 42s.xml">
-      <configuration name="ActivitiTest.completeTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActivitiTest_taskQuery - 2019.10.10 at 11h 02m 10s.xml">
+    <history-entry file="ActivitiTest_taskQuery - 2019.11.04 at 09h 58m 52s.xml">
       <configuration name="ActivitiTest.taskQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActivitiTest_startProcessInstance - 2019.10.10 at 11h 03m 10s.xml">
-      <configuration name="ActivitiTest.startProcessInstance" configurationId="JUnit" />
+    <history-entry file="ActivitiTest_taskQuery1 - 2019.11.04 at 10h 00m 28s.xml">
+      <configuration name="ActivitiTest.taskQuery1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ActivitiTest_taskQuery - 2019.10.10 at 11h 03m 29s.xml">
-      <configuration name="ActivitiTest.taskQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActivitiTest_completeTask - 2019.10.10 at 11h 04m 02s.xml">
-      <configuration name="ActivitiTest.completeTask" configurationId="JUnit" />
+    <history-entry file="ActivitiTest_taskQuery1 - 2019.11.04 at 10h 03m 44s.xml">
+      <configuration name="ActivitiTest.taskQuery1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196583000" />
+    <option name="totallyTimeSpent" value="275316000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -736,9 +976,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2637584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28926176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -749,8 +988,8 @@
       <window_info id="BPMN Editor" order="8" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6141844" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3617021" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42739275" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17730497" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.67659575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
@@ -758,15 +997,15 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34468085" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.61702126" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.39716312" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3294702" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.3248227" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.4539007" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962063" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.18993288" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24899329" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19664429" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -871,399 +1110,355 @@
     <MESSAGE value="修改配置文件" />
     <option name="LAST_COMMIT_MESSAGE" value="修改配置文件" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="arr.get(1)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>arr.get(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/java/com/rexyn/base/controller/LabelController.java">
+    <entry file="file://$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/config/Activiti7ApplicationConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/rexyn_activiti7/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/util/SecurityUtil.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/db/DbSqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_user/src/main/java/com/rexyn/user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/rexyn_activiti7/src/main/java/com/rexyn/activiti7/Demo.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/repository/ProcessDefinition.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/java/com/rexyn/base/controller/BaseControllerExceptionHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/Entity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/controller/FeignTestController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/db/HasRevision.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_common/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/ProcessDefinitionEntityImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="-1575">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_gateway/src/main/resources/bootstrap.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/ProcessDefinitionEntityManagerImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="21">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_gateway/src/main/java/com/rexyn/gateway/GatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activitiTestCreate25Tables.java" />
-    <entry file="file://$PROJECT_DIR$/config/gateway-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/rabbittest-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_gateway/src/main/java/com/rexyn/gateway/filter/GatewayFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1833">
-          <caret line="101" column="40" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_msg/src/main/java/com/rexyn/msg/listener/MsgListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_user/src/main/java/com/rexyn/user/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_user/src/main/java/com/rexyn/user/config/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/base-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/activiti/npmn/BPMTestFile.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/npmn/BPMTestFile.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://BPMN_2_0/flowPath=D:/微服务/newProject/file/activiti/npmn/BPMTestFile.xml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>BPMN_2_0</ID>
-          <OriginalElement>flowPath=D:/微服务/newProject/file/activiti/npmn/BPMTestFile.xml</OriginalElement>
-          <nodes>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @19046</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @19041</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @19033</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @19051</node>
-            <node x="" y="">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @19036</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="73.0" y="186.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/config/ActivitiConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/msg-dev.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/ProcessDefinitionEntity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/activiti/npmn/BPMTestFile.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/java/com/rexyn/base/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/user-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_feign_test/src/main/java/com/rexyn/FeignTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/npmn/BPMTestFile.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiCompleteTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiDeployment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/ActivitiTestCreate25Tables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="115" column="5" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiTaskQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="33" column="9" selection-start-line="20" selection-start-column="6" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/dev/ActivitiStartInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="79" selection-start-line="17" selection-start-column="7" selection-end-line="18" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/activiti.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_rabbitmq_test/src/test/java/com/rexyn/test/productTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/feigntest-dev.yml">
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/BaseControllerExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="189">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile2.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/BPMTestFile.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/java/com/rexyn/base/controller/BaseControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/java/com/rexyn/base/service/LabelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
+          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/java/com/rexyn/base/controller/LabelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="66" column="58" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activiti7/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/rexyn_common/src/main/java/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="21">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_config/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/ProcessDefinitionEntity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="357">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_eureka/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/rexyn_common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="399">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/eureka-dev.yml">
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="-924">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_eureka/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-bpmn-model/7-201802-EA/activiti-bpmn-model-7-201802-EA.jar!/org/activiti/bpmn/model/Process.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="50" column="12" selection-start-line="22" selection-start-column="4" selection-end-line="50" selection-end-column="12" />
+        <state relative-caret-position="63">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_base/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/session/SqlSession.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+        <state relative-caret-position="226">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/resources/bootstrap.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/ExecutionEntityImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="226">
+          <caret line="241" column="16" selection-start-line="241" selection-start-column="16" selection-end-line="241" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="58" column="12" selection-start-line="30" selection-start-column="4" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_feign_test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_msg/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_rabbitmq_test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_feign_test/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rexyn_rabbitmq_test/src/main/resources/bootstrap.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/ExecutionEntity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/delegate/DelegateExecution.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/TaskEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_base/src/main/java/com/rexyn/base/pojo/Label.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/task/TaskInfoQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/ActivitiTestCreate25Tables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.16.Final/hibernate-core-5.2.16.Final-sources.jar!/org/hibernate/service/spi/ServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiDecision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/config/ActivitiConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/TaskEntityImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/common/ActivitiConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/test/java/com/rexyn/activiti/ActivitiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2237">
+          <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/history/HistoricTaskInstance.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/HistoryService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/resources/bpmn/Land.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/impl/persistence/entity/HistoricScopeInstanceEntityImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <folding>
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/7-201802-EA/activiti-engine-7-201802-EA.jar!/org/activiti/engine/RepositoryService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/controller/ActivitiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="154" column="30" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rexyn_activitiTest/src/main/java/com/rexyn/activiti/service/AcitivitiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="326" column="5" lean-forward="true" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8881#8889#0" expanded="true" />
+            <element signature="e#15950#15958#0" expanded="true" />
+            <element signature="e#16608#16616#0" expanded="true" />
+            <element signature="e#15230#15238#0" expanded="true" />
+            <element signature="e#15355#15363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1318,7 +1513,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rexyn_activitiTest</last-edited>
+          <last-edited>rexyn_activiti7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
